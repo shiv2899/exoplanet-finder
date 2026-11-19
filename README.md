@@ -27,7 +27,7 @@ At threshold 0.5, the CNN predicted everything as FALSE POSITIVE (Confusion [[74
 
 **Lesson:** A strong tabular baseline beats a fancy CNN when the CNN gets no extra data. Always build the baseline first.
 
-[PR and ROC](results/pr_roc.png)
+![PR and ROC](results/pr_roc.png)
 *Left: Precision-Recall, Right: ROC. Orange = Baseline GB, Blue = CNN.*
 
 Full per-signal predictions in `results/test_predictions.csv`.
